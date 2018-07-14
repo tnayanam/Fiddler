@@ -1,0 +1,11 @@
+Request:
+Suppose the API is hosted it at: http://localhost:8901/api/foods
+Open fiddler and go to "COMPOSE" go to "PARSED".
+Select the dropdown as "Get" or whatever, tick the LogResults
+Response: Now go to "INSPECTOR" -> go to RAW in bottom window.
+ Suppose we want the result in xml format then in Composer
+Add below
+Acept: text/xml
+
+
+
